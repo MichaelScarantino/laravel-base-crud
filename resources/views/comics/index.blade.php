@@ -6,7 +6,7 @@
 
         @foreach ($comics as $comic)
             <h3>
-                <a href="#">{{ $comic->title }}</a>
+                <a href="{{ route('comics.show', ['comic' => $comic->id]) }}">{{ $comic->title }}</a>
             </h3>
             <div>
                 {{ $comic->series }}
