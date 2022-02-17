@@ -12178,7 +12178,7 @@ fieldset:disabled .btn {
   margin: 0 auto;
 }
 
-img {
-  max-width: 100%;
+.card img {
+  max-width: 250px;
 }
 
